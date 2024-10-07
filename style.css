@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.outer-container {
+    border: 10px solid #4a90e2;
+    padding: 0px;
+    background-color: #f0f0f0;
+}
+
+
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px; /* Rounded inner border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    color: #4a90e2;
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 30px;
+    margin-right: 200px;
+}
+
+
+.divider {
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 0 -20px 20px -20px; /* Negative margin to extend the line to the edges */
+}
+
+.game-box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.scrambled-word {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    color: #333;
+}
+
+#hint,
+#timer {
+    color: #666;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+#user-input {
+    padding: 10px;
+    font-size: 16px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: calc(50% - 12px);
+}
+
+#check-word {
+    background-color: #4a90e2;
+    color: white;
+}
+
+#refresh-word {
+    background-color: #666;
+    color: white;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+#attempts {
+    margin-top: 10px;
+    color: #333;
+}
